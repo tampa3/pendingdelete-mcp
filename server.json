@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.pendingdelete/mcp",
+  "title": "PendingDelete.net",
+  "description": "Search pending delete and recently dropped domain names, with drop times, Rank and Linking Domains.",
+  "version": "1.0.0",
+  "websiteUrl": "https://pendingdelete.net/mcp-server",
+  "repository": {
+    "url": "https://github.com/tampa3/pendingdelete-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pendingdelete.net/mcp"
+    }
+  ]
+}
